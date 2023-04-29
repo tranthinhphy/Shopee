@@ -514,6 +514,7 @@
 .header__logo-link {
     display: block;
     line-height: 0;
+    text-align: center;
     color: transparent;
 }
 
@@ -1296,7 +1297,7 @@
     font-weight: 500;
     text-transform: uppercase;
     color: var(--text-color);
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 12px;
 }
 
