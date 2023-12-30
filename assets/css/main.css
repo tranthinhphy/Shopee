@@ -856,6 +856,10 @@
     cursor: default;
 }
 
+.header__cart-item-link {
+    color: var(--text-color);
+}
+
 .header__cart-btn {
     padding: 10px;
     display: flex;
