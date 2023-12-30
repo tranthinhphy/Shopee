@@ -2,11 +2,20 @@
 /*  Mobile and tablet: width: < 1024px (max-width: 1023px)
     @media (max-width: 63.9375em) {}
 
-    Mobile: width < 740px (max-width: 739px)
-    @media (max-width: 46.1875em) {}
+    Mobile: width < 768px (max-width: 767px)
+    @media (max-width: 47.9375em) {}
 
-    Tablet: width >= 740px and width < 1024px (min-width: 740px) and (max-width: 1023px)
-    @media (min-width: 46.25em) and (max-width: 63.9375em) {}
+        L Mobile: width > 375px and width <= 425px (min-width: 376px) and (max-width: 425px)
+        @media (min-width: 23.5em) and (max-width: 26.5625em) {}
+
+        M Mobile: width > 320px and width <= 375px (min-width: 321px) and (max-width: 375px)
+        @media (min-width: 20.0625em) and (max-width: 23.4375em) {}
+
+        S Mobile: width <= 320px (max-width: 320px)
+        @media (max-width: 20em) {}
+
+    Tablet: width >= 768px and width < 1024px (min-width: 768px) and (max-width: 1023px)
+    @media (min-width: 48em) and (max-width: 63.9375em) {}
 
     PC: width >= 1024px (min-width: 1024px)
     @media (min-width: 64em) {}
@@ -38,8 +47,8 @@
 }
 
 /* Mobile */
-/* (max-width: 739px) */
-@media (max-width: 46.1875em) {
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
     .row {
         margin-left: -4px;
         margin-right: -4px;
@@ -170,8 +179,8 @@
 }
 
 /* >= Tablet */
-/* (min-width: 740px) */
-@media (min-width: 46.25em) {
+/* (min-width: 768px) */
+@media (min-width: 48em) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -470,8 +479,8 @@
 }
 
 /* Tablet - PC low resolution */
-/* (min-width: 740px) and (max-width: 1023px) */
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
     .wide {
         width: 644px;
     }
