@@ -1,9 +1,9 @@
 /* Responsive */
-/*  Mobile and tablet: width: < 1024px (max-width: 1023px)
-    @media (max-width: 63.9375em) {}
+/*  Mobile and tablet: width: < 1024px (max-width: 1023.5px)
+    @media (max-width: 63.96875em) {}
 
-    Mobile: width < 768px (max-width: 767px)
-    @media (max-width: 47.9375em) {}
+    Mobile: width < 768px (max-width: 767.5px)
+    @media (max-width: 47.96875em) {}
 
         L Mobile: width > 375px and width <= 425px (min-width: 376px) and (max-width: 425px)
         @media (min-width: 23.5em) and (max-width: 26.5625em) {}
@@ -14,8 +14,8 @@
         S Mobile: width <= 320px (max-width: 320px)
         @media (max-width: 20em) {}
 
-    Tablet: width >= 768px and width < 1024px (min-width: 768px) and (max-width: 1023px)
-    @media (min-width: 48em) and (max-width: 63.9375em) {}
+    Tablet: width >= 768px and width < 1024px (min-width: 768px) and (max-width: 1023.5px)
+    @media (min-width: 48em) and (max-width: 63.96875em) {}
 
     PC: width >= 1024px (min-width: 1024px)
     @media (min-width: 64em) {}
@@ -47,8 +47,8 @@
 }
 
 /* Mobile */
-/* (max-width: 767px) */
-@media (max-width: 47.9375em) {
+/* (max-width: 767.5px) */
+@media (max-width: 47.96875em) {
     .row {
         margin-left: -4px;
         margin-right: -4px;
@@ -479,16 +479,16 @@
 }
 
 /* Tablet - PC low resolution */
-/* (min-width: 768px) and (max-width: 1023px) */
-@media (min-width: 48em) and (max-width: 63.9375em) {
+/* (min-width: 768px) and (max-width: 1023.5px) */
+@media (min-width: 48em) and (max-width: 63.96875em) {
     .wide {
         width: 644px;
     }
 }
 
 /* > PC low resolution < PC medium resolution */
-/* (min-width: 1024px) and (max-width: 1239px) */
-@media (min-width: 64em) and (max-width: 77.4375em) {
+/* (min-width: 1024px) and (max-width: 1239.5px) */
+@media (min-width: 64em) and (max-width: 77.46875em) {
     .wide {
         width: 984px;
     }

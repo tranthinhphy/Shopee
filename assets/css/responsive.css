@@ -1,5 +1,5 @@
 /* Mobile and tablet */
-@media (max-width: 63.9375em) {
+@media (max-width: 63.96875em) {
     .app {
         -webkit-tap-highlight-color: transparent;
     }
@@ -42,7 +42,7 @@
 }
 
 /* Tablet */
-@media (min-width: 48em) and (max-width: 63.9375em) {
+@media (min-width: 48em) and (max-width: 63.96875em) {
     :root {
         --header-height: 68px;
         --navbar-height: 0px;
@@ -54,7 +54,7 @@
 }
 
 /* Mobile */
-@media (max-width: 47.9375em) {
+@media (max-width: 47.96875em) {
     :root {
         --header-height: 54px;
         --navbar-height: 0px;
